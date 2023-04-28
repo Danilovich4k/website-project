@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f7b000;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .logo img {
+    height: 300px;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 80px auto 0;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .product {
+    background-color: #f7b000;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 13.33px);
+  }
+  
+  .product h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .product p {
+    margin-bottom: 20px;
+  }
+  
+  .product span {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #cart {
+    background-color: #242424;
+    padding: 20px;
+  }
+  
+  #cart h2 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  #cart form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .cart-table th {
+    background-color: #f7b000;
+  }
+  
+  #cart label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  #cart input[type="text"],
+  #cart input[type="email"],
+  #cart input[type="tel"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #cart button[type="submit"] {
+    background-color: #f7b000;
+    border: none;
+    color: #000;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
